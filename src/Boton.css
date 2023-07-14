@@ -1,0 +1,25 @@
+.green-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .green-button:hover {
+    background-color: #45a049; /* Cambiar el color al pasar el cursor */
+  }
+
+  .formulario select {
+    height: 40px;
+    width: 100%
+  }
+  
+  /* Estilo de la opción seleccionada */
+  .formulario select option:checked {
+    background-color: #3add6b;
+  }
